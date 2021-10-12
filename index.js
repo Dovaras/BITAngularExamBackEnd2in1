@@ -1,6 +1,13 @@
 const express = require("express");
 const mysql = require("mysql");
 
+// import cors from 'cors';
+
+// const corsOptions = {​
+//  origin: "http://localhost:4200"
+// }​;
+// app.use(cors(corsOptions));
+
 const dbConfig = {
     host: "localhost",
     user: "root",
